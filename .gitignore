@@ -1,0 +1,125 @@
+# Task Management System - Git Ignore File
+# Generated for Java Spring Boot + React/Vite project
+
+# ===== Java/Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.gradle/
+build/
+!gradle-wrapper.jar
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Node.js/JavaScript/TypeScript =====
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+.vite/
+.cache/
+
+# ===== Environment & Secrets =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.env*
+!.env.example
+
+# ===== IDE & Editors =====
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Application Data =====
+# JSON storage files (keep structure, ignore data)
+backend/data/tasks.json
+backend/data/statuses.json
+# Keep empty templates
+!backend/data/.gitkeep
+
+# ===== Test & Coverage =====
+coverage/
+*.lcov
+.nyc_output/
+test-results/
+junit.xml
+
+# ===== Temporary & Build Artifacts =====
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+.cache
+tmp/
+temp/
+
+# ===== OS Generated =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== Package Managers =====
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log
+
+# ===== Spring Boot Specific =====
+.springBeans
+spring-boot-devtools.properties
+application-local.properties
+
+# ===== React/Vite Specific =====
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ===== Documentation Build =====
+docs/_build/
+site/
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Misc =====
+.history/
+.vscode-test/
+*.pid
+*.seed
+*.pid.lock
