@@ -14,8 +14,7 @@ This project demonstrates how AI can assist in reverse engineering legacy CGI ap
 - Architecture creation 
 
 ## Getting Started
-Step1 :  Run the project on your local to see the legacy perl project in action. 
-  TODO - fix the code for save new and delete.
+Step1 :  Run the project on your local to see the legacy perl project UI. 
 Step2 : Using Speckit and Kilo code/copilot try to create a frontend only application 
 
 Step3 : Using Speckit and Kilo code/copilot create a frontend and backend application which has a local json store
