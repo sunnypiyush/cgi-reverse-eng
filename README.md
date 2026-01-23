@@ -12,7 +12,6 @@ This project demonstrates how AI can assist in reverse engineering legacy CGI ap
 - AI-powered code analysis
 - Documentation generation
 - Architecture creation 
-- Dependency mapping
 
 ## Getting Started
 Step1 :  Run the project on your local to see the legacy perl project in action. 
