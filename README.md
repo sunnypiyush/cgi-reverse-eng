@@ -15,12 +15,11 @@ This project demonstrates how AI can assist in reverse engineering legacy CGI ap
 
 ## Getting Started
 Step1 :  Run the project on your local to see the legacy perl project UI. 
-Step2 : Using Speckit and Kilo code/copilot try to create a frontend only application 
 
-Step3 : Using Speckit and Kilo code/copilot create a frontend and backend application which has a local json store
-         ( note you can also use locally hosted database optionally)
+Step2 : Using Speckit and Kilo code/copilot try to create a frontend and backend application 
 
-Step4 : Using A11y mcp integration, identify accessibility issues and address them via AI powered solutioning. 
+Step3 : Using Speckit and Kilo code/copilot create a frontend and backend application with Accessible UI elements or by providing it UI of your choice
+         ( note you can also add ChromaDB or any other locally hosted database for this step)
 
 
 ### Prerequisites
@@ -28,14 +27,17 @@ Step4 : Using A11y mcp integration, identify accessibility issues and address th
 - VS code https://code.visualstudio.com/ 
 - Kilo code extension setup on VS code - https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code
 - Spec Kit installed - https://github.com/github/spec-kit select Kilo code as the integration option.
+- LLM access via API (OpenAI, Anthropic etc.) can be via any cloud provider or direct API with these providers. 
+
+## Prerequisites for running the perl app
 - For Mac Users install : cpanm 
 - For Windows users install Strawberry Perl - https://strawberryperl.com/ 
-- AI API access (OpenAI, Anthropic, etc.)
+
 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/cgi-reverse-eng.git
+git clone https://github.com/piyyadav/cgi-reverse-eng.git
 cd cgi-reverse-eng
 
 # Install dependencies for MacOS
@@ -46,11 +48,6 @@ cpanm plack
 run plackup app.cgi
 ```
 
-### Usage
-
-```bash
-python analyze.py --input ./cgi-bin/sample.cgi
-```
 
 ## Project Structure
 
@@ -64,4 +61,4 @@ cgi-reverse-eng/
 
 ## License
 
-No License
+
